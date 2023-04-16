@@ -166,7 +166,7 @@ if __name__ == '__main__':
         author='MMPose Contributors',
         author_email='openmmlab@gmail.com',
         keywords='computer vision, pose estimation',
-        long_description=readme(),
+        # long_description=readme(),
         long_description_content_type='text/markdown',
         packages=find_packages(exclude=('configs', 'tools', 'demo')),
         include_package_data=True,

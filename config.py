@@ -17,7 +17,7 @@ class Config:
     hand_pos_joint_num = 20
     num_task_token = 24
     feat_dim = 1024
-    encoder_config_file = 'osx/transformer_utils/configs/osx/encoder/body_encoder_large.py'
+    encoder_config_file = 'grounded-sam-osx/transformer_utils/configs/osx/encoder/body_encoder_large.py'
 
     ## input, output
     input_img_shape = (512, 384)
@@ -41,7 +41,6 @@ class Config:
 
     ## directory
     cur_dir = osp.dirname(os.path.abspath(__file__))
-    # root_dir = osp.join(cur_dir, '..')
 
     human_model_path = osp.join(cur_dir, 'utils', 'human_model_files')
 

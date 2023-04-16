@@ -1,9 +1,6 @@
-import sys
-
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
-from nets.resnet import ResNetBackbone
 from nets.module import PositionNet, HandRotationNet, FaceRegressor, BoxNet, HandRoI, BodyRotationNet
 
 from utils.human_models import smpl_x
